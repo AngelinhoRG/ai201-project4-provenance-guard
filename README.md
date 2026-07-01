@@ -266,8 +266,7 @@ so — the confidence score doesn't currently communicate "low sample size."
 ## Spec Reflection
 
 **How the spec helped:** writing out the exact three label strings in
-`planning.md` *before* writing `scoring.py` caught a subtle problem early —
-my first draft of the "uncertain" label didn't mention that the content was
+`planning.md` *before* writing `scoring.py` caught a subtle problem early. My first draft of the "uncertain" label didn't mention that the content was
 shown "without a definitive attribution claim," which made it read as if the
 system just hadn't finished analyzing yet rather than having deliberately
 declined to call it either way. Having the exact text specified up front made
